@@ -20,7 +20,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: "Computer Modern Serif", serif;
 }
 p {
@@ -29,7 +29,7 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    /*border-top: 1px solid #d5d5d5;*/
     font-size: .8em;
 }
 
