@@ -1,12 +1,11 @@
 body {
+    font-family: "Computer Modern Serif" /*"Computer Modern Sans"*/, sans-serif;
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family: "Computer Modern Serif", serif;
     padding: 0px;
     list-style: none;
-    font-weight: bold;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -21,7 +20,6 @@ a:hover {
 }
 h1 {
     font-size: 2.5em;
-    font-family: "Computer Modern Serif", serif;
 }
 p {
     font-size: 1.5em;
@@ -29,8 +27,8 @@ p {
     color: #333;
 }
 footer {
-    /*border-top: 1px solid #d5d5d5;*/
-    font-size: .8em;
+    border-top: 1px solid #d5d5d5;
+    font-size: 1.2em;
 }
 
 ul.posts { 
