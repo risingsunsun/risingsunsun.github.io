@@ -1,6 +1,6 @@
 body {
     font-family: "Computer Modern Serif" /*"Computer Modern Sans"*/, sans-serif;
-    max-width: 40em;
+    max-width: 50em;
     margin: 50px auto;
     margin-left: 200px;
     /*margin: 60px auto;
@@ -47,4 +47,32 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.pad-top{
+    padding-top: 0.75em;
+}
+
+/* grids,columns,etc -----------------------------------------------------*/
+.column {
+    float: left;
+    padding-right: 20px;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
