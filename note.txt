@@ -1,0 +1,4 @@
+bundle exec jekyll serve -> serve website locally at 127.0.0.1:4000
+git add -A
+git commit - m "message here"
+git push origin master

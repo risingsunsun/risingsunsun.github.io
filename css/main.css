@@ -21,11 +21,17 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 1.4em;
 }
-p {
+
+h1.main{
     font-size: 1.2em;
+}
+
+p {
+    font-size: 1.1em;
     line-height: 1.3em;
     color: #333;
 }
