@@ -1,7 +1,10 @@
 body {
     font-family: "Computer Modern Serif" /*"Computer Modern Sans"*/, sans-serif;
-    margin: 60px auto;
-    width: 70%;
+    max-width: 30em;
+    margin: 50px auto;
+    margin-left: 200px;
+    /*margin: 60px auto;
+    width: 70%;*/
 }
 nav ul, footer ul {
     padding: 0px;
@@ -19,11 +22,11 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 2.5em;
+    font-size: 1.4em;
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.2em;
+    line-height: 1.3em;
     color: #333;
 }
 footer {
