@@ -4,13 +4,15 @@ layout: default
 
 <body class="posts">
 
-<h1 class="post ">{{ page.title }}</h1>
+<h1 class="post">{{ page.title }}</h1>
 <p class="meta postdate ">{{ page.date | date_to_string }}</p>
 
 <div style="clear: both;"></div>
 
 <div>
+	<p>
   {{ content }}
+	</p>
 </div>
 
 </body>
