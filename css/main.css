@@ -1,6 +1,6 @@
 body {
     font-family: "Computer Modern Serif" /*"Computer Modern Sans"*/, sans-serif;
-    max-width: 50em;
+    max-width: 60%;
     margin: 50px auto;
     margin-left: 200px;
     /*margin: 60px auto;
@@ -9,7 +9,7 @@ body {
 
 body.posts {
     font-family: "Computer Modern Serif" /*"Computer Modern Sans"*/, sans-serif;
-    max-width: 35em;
+    max-width: 40%;
     margin: 50px auto;
     margin-left: 200px;
     /*margin: 60px auto;
