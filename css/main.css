@@ -6,6 +6,17 @@ body {
     /*margin: 60px auto;
     width: 70%;*/
 }
+
+body.posts {
+    font-family: "Computer Modern Serif" /*"Computer Modern Sans"*/, sans-serif;
+    max-width: 35em;
+    margin: 50px auto;
+    margin-left: 200px;
+    /*margin: 60px auto;
+    width: 70%;*/
+}
+
+
 nav ul, footer ul {
     padding: 0px;
     list-style: none;
@@ -30,9 +41,20 @@ h1.main{
     font-size: 1.2em;
 }
 
+h1.post{
+    font-size: 1.2em;
+    float: left;
+    width: 70%;
+}
+
+.postdate{
+    float: right;
+    width: 20%;
+}
+
 p {
-    font-size: 1.1em;
-    line-height: 1.3em;
+    font-size: 1.0em;
+    line-height: 1.2em;
     color: #333;
 }
 footer {
