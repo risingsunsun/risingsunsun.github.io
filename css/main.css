@@ -2,16 +2,16 @@ body {
     font-family: "Computer Modern Serif" /*"Computer Modern Sans"*/, serif;
     max-width: 60%;
     margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 15%;
     /*margin: 60px auto;
     width: 70%;*/
 }
 
 body.posts {
     font-family: "Computer Modern Serif" /*"Computer Modern Sans"*/, serif;
-    max-width: 45%;
+    max-width: 60%;
     margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 15%;
     /*margin: 60px auto;
     width: 70%;*/
 }
@@ -49,12 +49,12 @@ h1.post{
 
 .postdate{
     float: right;
-    width: 20%;
+    width: 30%;
 }
 
 p {
-    font-size: 1.0em;
-    line-height: 1.2em;
+    font-size: 1.1em;
+    line-height: 1.25em;
     color: #333;
 }
 footer {
@@ -92,6 +92,25 @@ ul.posts li {
 .right {
   width: 25%;
 }
+
+.grid {
+    overflow: hidden;
+    clear: left; }
+.grid-col-left, .grid-col-right {
+    display: block;
+    float: left;
+}
+.grid-col-left{
+    width: 65%;
+}
+.grid-col-right{
+    width: 25%;
+}
+
+
+
+
+
 
 .row:after {
     content: "";
